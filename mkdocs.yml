@@ -1,0 +1,115 @@
+
+# --------- High Level Settings ---------
+
+# Project information
+site_name: 314 Docs
+site_description: Documentation for INFO 314
+site_author: Ben Walchenbach
+# site_url: https://squidfunk.github.io/mkdocs-material/
+
+# Repository
+# repo_name: squidfunk/mkdocs-material
+# repo_url: https://github.com/squidfunk/mkdocs-material
+edit_uri: ""
+
+
+
+# --------- Main Settings ---------
+
+# Page tree
+nav:
+  - Welcome:
+      - Welcome: index.md
+      - Assignment Template: assignments.md
+      - Asking for help: contact.md
+      - Bash & Markdown: bash.md
+  - Course Preperation:
+      - Pi Materials: course-prep/pi-materials.md
+      - Install Wireshark: course-prep/wireshark-install.md
+      - Digital Ocean Signup: course-prep/do.md
+  - Troubleshooting:
+      - General: trouble/basics.md
+      - DHCP / dhcpd: trouble/dhcp.md
+      - Interfaces / systemd: trouble/interfaces.md
+      - NAT / iptables: trouble/nat.md
+      - DNS / bind9: trouble/dns.md
+      - Final Project: trouble/final.md
+      
+
+# Configuration
+theme:
+  name: null
+  custom_dir: material
+
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: true
+  palette:
+    # primary: indigo
+    primary: deep purple
+    accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/images/favicon.png
+  logo:
+    icon: "\uE80C"
+
+
+
+# --------- Optional Settings---------
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: http://struct.cc
+    - type: github-alt
+      link: https://github.com/squidfunk
+    - type: twitter
+      link: https://twitter.com/squidfunk
+    - type: linkedin
+      link: https://linkedin.com/in/squidfunk
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2019 Martin Donath'
