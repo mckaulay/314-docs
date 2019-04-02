@@ -2,7 +2,7 @@
 Class documentation for **INFO 314**: *"Computer Networks And Distributed Applications"*.
 
 
-[![Material for MkDocs](assets/images/material.png)][1]
+[![Material for MkDocs](img/welcome/material.png)][1]
 
   [1]: https://squidfunk.github.io/mkdocs-material/
 

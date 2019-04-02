@@ -27,6 +27,7 @@ nav:
       - Pi Materials: course-prep/pi-materials.md
       - Install Wireshark: course-prep/wireshark-install.md
       - Digital Ocean Signup: course-prep/do.md
+      - Core Skills Lab: course-prep/core-skills-lab.md
   - Troubleshooting:
       - General: trouble/basics.md
       - DHCP / dhcpd: trouble/dhcp.md

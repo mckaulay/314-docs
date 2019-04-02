@@ -77,6 +77,9 @@ Control services by using the `systemctl` command.
 
 <br>
 
-**Copy files** <br>
-You can copy files from your laptop to a server or a server to your laptop by using `scp`. <br>
+**Copy files / `scp`** <br>
+You can copy files from your laptop to a server or a server to your laptop by using `scp`. 
+
 It uses our ssh tunnel to securely transfer your files back and forth. You can find great examples at [hyperx.org](http://www.hypexr.org/linux_scp_help.php).
+
+Copy all of the contents of a folder:<br> `scp -r  ava/*  root@157.230.163.231:/var/www/html/`<br> This copies everything in the ava folder to the html folder.
