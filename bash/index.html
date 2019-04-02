@@ -395,6 +395,18 @@
   </li>
 
         
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../course-prep/core-skills-lab/" title="Core Skills Lab" class="md-nav__link">
+      Core Skills Lab
+    </a>
+  </li>
+
+        
       </ul>
     </nav>
   </li>
@@ -601,9 +613,10 @@ Control services by using the <code>systemctl</code> command.
 * Restart services: <code>sudo systemctl restart &lt;service name&gt;</code>
 * See whether a service is running or not:<code>sudo systemctl status &lt;service name&gt;</code></p>
 <p><br></p>
-<p><strong>Copy files</strong> <br>
-You can copy files from your laptop to a server or a server to your laptop by using <code>scp</code>. <br>
-It uses our ssh tunnel to securely transfer your files back and forth. You can find great examples at <a href="http://www.hypexr.org/linux_scp_help.php">hyperx.org</a>.</p>
+<p><strong>Copy files / <code>scp</code></strong> <br>
+You can copy files from your laptop to a server or a server to your laptop by using <code>scp</code>. </p>
+<p>It uses our ssh tunnel to securely transfer your files back and forth. You can find great examples at <a href="http://www.hypexr.org/linux_scp_help.php">hyperx.org</a>.</p>
+<p>Copy all of the contents of a folder:<br> <code>scp -r  ava/*  root@157.230.163.231:/var/www/html/</code><br> This copies everything in the ava folder to the html folder.</p>
                 
                   
                 
