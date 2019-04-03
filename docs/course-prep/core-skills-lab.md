@@ -2,6 +2,10 @@
 > This document is made to support students in Lab 1: *Core skills and working with remote servers*. Everything you learn in this lab is directly applicable to working with your Raspberry Pi.
 
 
+![fundamentals](https://media.gcflearnfree.org/content/5967b8a98444e81d1ca6cde4_07_13_2017/funda_intro_elements.jpg)
+
+<br>
+
 ## SSH
 ---
 
