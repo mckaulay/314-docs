@@ -286,8 +286,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../../bash/" title="Bash & Markdown" class="md-nav__link">
-      Bash & Markdown
+    <a href="../../markdown/" title="Intro to Markdown" class="md-nav__link">
+      Intro to Markdown
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../bash/" title="Intro to Bash" class="md-nav__link">
+      Intro to Bash
     </a>
   </li>
 
@@ -550,7 +562,16 @@
 <li>Static IP for your PI:</li>
 <li>go to the <code>/etc/systemd/network/20-eth0.network</code></li>
 </ul>
-<p><div class="codehilite"><pre><span></span>[Match]
+<p><table class="codehilitetable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></div></td><td class="code"><div class="codehilite"><pre><span></span>[Match]
 # We only want to match the eth0 interface
 Name=eth0
 
@@ -561,6 +582,7 @@ Address=192.168.69.1/26
 # Enable link local addresses for IPv6 (FE80::)
 LinkLocalAddressing=ipv6
 </pre></div>
+</td></tr></table>
 Check if networkd is running: <code>sudo service systemd-networkd status</code>.</p>
                 
                   
@@ -628,20 +650,7 @@ Check if networkd is running: <code>sudo service systemd-networkd status</code>.
         <a href="https://squidfunk.github.io/mkdocs-material/">
           Material for MkDocs</a>
       </div>
-      <!-- 
-  <div class="md-footer-social">
-    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
-    
-      <a href="http://struct.cc" class="md-footer-social__link fa fa-globe"></a>
-    
-      <a href="https://github.com/squidfunk" class="md-footer-social__link fa fa-github-alt"></a>
-    
-      <a href="https://twitter.com/squidfunk" class="md-footer-social__link fa fa-twitter"></a>
-    
-      <a href="https://linkedin.com/in/squidfunk" class="md-footer-social__link fa fa-linkedin"></a>
-    
-  </div>
- -->
+      
     </div>
   </div>
 </footer>
