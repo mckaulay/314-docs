@@ -22,7 +22,8 @@ nav:
       - Welcome: index.md
       - Assignment Template: assignments.md
       - Asking for help: contact.md
-      - Bash & Markdown: bash.md
+      - Intro to Markdown: markdown.md
+      - Intro to Bash: bash.md
   - Course Preperation:
       - Pi Materials: course-prep/pi-materials.md
       - Install Wireshark: course-prep/wireshark-install.md
@@ -70,22 +71,24 @@ theme:
 # --------- Optional Settings---------
 
 # Customization
-extra:
-  social:
-    - type: globe
-      link: http://struct.cc
-    - type: github-alt
-      link: https://github.com/squidfunk
-    - type: twitter
-      link: https://twitter.com/squidfunk
-    - type: linkedin
-      link: https://linkedin.com/in/squidfunk
+# extra:
+#   social:
+
+#     - type: github-alt
+#       link: https://github.com/i314-campbell-wi19/project-tutorials
+#     - type: linkedin
+#       link: http://struct.cc
+#     - type: poll-in
+#       link: https://twitter.com/squidfunk
+#     - type: linkedin
+#       link: https://linkedin.com/in/squidfunk
 
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
   - markdown.extensions.codehilite:
       guess_lang: false
+      linenums: true
   - markdown.extensions.def_list
   - markdown.extensions.footnotes
   - markdown.extensions.meta
