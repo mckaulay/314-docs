@@ -18,7 +18,7 @@ To __install__ python 3 on your machine, follow the brief instructions that are 
 
     !!! info "Note"
         
-        If you already have another version of python installed, you might have to remove that version __before__ installing Python 3.
+        If you already have another version of python installed and you do not want to remove it, you can use the `virtualenv` module to run multiple different Python versions on Windows by following [these instructions](http://thebluenode.com/how-to-run-multiple-versions-of-python-on-windows-using-virtualenv). Otherwise, you might have to remove that version __before__ installing Python 3.
 
 ## Verify installation
 

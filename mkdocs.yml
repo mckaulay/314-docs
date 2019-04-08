@@ -31,9 +31,19 @@ nav:
       - Core Skills Lab: course-prep/core-skills-lab.md
       - Install Python: course-prep/install-python.md
   - Assignments/Labs:
+      - Project 1:
+          - Overview: assignments/project-1/overview.md
+          - Setup: assignments/project-1/setup.md
+      - Project 2:
+          - Overview: assignments/project-2/overview.md
+          - Setup: assignments/project-2/setup.md
+      - Project 3:
+          - Overview: assignments/project-3/overview.md
+          - Setup: assignments/project-3/setup.md
       - Project 4 - DNS Resolvers: # assignments/project-4.md
           - Overview: assignments/project-4/overview.md
           - Setup: assignments/project-4/setup.md
+          - Windows DNS Tools: assignments/project-4/windows-dns-tools.md
   - Troubleshooting:
       - General: trouble/basics.md
       - DHCP / dhcpd: trouble/dhcp.md
