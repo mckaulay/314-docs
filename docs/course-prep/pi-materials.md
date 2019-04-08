@@ -18,7 +18,7 @@ Many of the labs and exercises are built around Raspberry Pi 3 Model B/B+ hardwa
 <br>
 
 
-# Details
+## Details
 ---
 
 
@@ -35,4 +35,10 @@ We tried out all sorts of solutions in previous quarters, but the most convenien
 ### Storage
 The Pi has very simple storage requirements. It relies on a microSD card of the sort you would use in a digital camera or cell phone. We recommend an 8 - 16GB card that meets the Class 10 or UHS-1 speed specifications. Since prices move around a lot, I’ve included several cards that I’ve tested on the Amazon list.
 				
-If you can afford it, a second storage card or a small USB flash drive may be useful. It’s relatively easy to boot the Pi to a USB drive if you end up needing to troubleshoot a non-booting Pi without a monitor or keyboard.					
+If you can afford it, a second storage card or a small USB flash drive may be useful. It’s relatively easy to boot the Pi to a USB drive if you end up needing to troubleshoot a non-booting Pi without a monitor or keyboard.	
+
+## Resources
+
+The iSchool has some technology resources available to you which can be helpful when you are waiting for your materials to be delivered, or when you need to do some troubleshooting. 
+
+You can use the iSchool IT [Equipment Checkout](https://ischool.uw.edu/technology/equipment-checkout) program which has hardware including __USB to Ethernet Adapters__ available for students. 

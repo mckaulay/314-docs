@@ -62,10 +62,14 @@ Check the last 100 lines of a service's logs. This is a great way to see if a se
 * If you specficially only want to see the most recent parts of the log you can pipe the information it gives you into the tail command, which only shows any files' ending lines. `sudo journalctl -u <service name here>.service | tail -n 100`
 
 **Check base logs** <br>
-Use `nano` or preferably do `vim` on any of these and then SHIFT-G to get to end of file
+Use `nano` or preferably do `vim` on any of these and then <kbd>SHIFT</kbd> + <kbd>G</kbd> to get to end of file
 
 * `/var/log/syslog` 
 * `/var/log/messages` 
 * `/var/log/kern.log`
 
+<br>
 
+## Power
+
+If your Pi is constantly rebooting, the problem may be that it is not getting enough power. Your best bet is to follow the recommendations given in the [Raspberry Pi Materials section](/course-prep/pi-materials/#power)

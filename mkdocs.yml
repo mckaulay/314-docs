@@ -24,11 +24,16 @@ nav:
       - Asking for help: contact.md
       - Intro to Markdown: markdown.md
       - Intro to Bash: bash.md
-  - Course Preperation:
+  - Course Preparation:
       - Pi Materials: course-prep/pi-materials.md
       - Install Wireshark: course-prep/wireshark-install.md
       - Digital Ocean Signup: course-prep/do.md
       - Core Skills Lab: course-prep/core-skills-lab.md
+      - Install Python: course-prep/install-python.md
+  - Assignments/Labs:
+      - Project 4 - DNS Resolvers: # assignments/project-4.md
+          - Overview: assignments/project-4/overview.md
+          - Setup: assignments/project-4/setup.md
   - Troubleshooting:
       - General: trouble/basics.md
       - DHCP / dhcpd: trouble/dhcp.md
@@ -36,6 +41,8 @@ nav:
       - NAT / iptables: trouble/nat.md
       - DNS / bind9: trouble/dns.md
       - Final Project: trouble/final.md
+  - After this Course:
+      - Use Your Raspberry Pi: beyond/use-your-pi.md
       
 
 # Configuration
